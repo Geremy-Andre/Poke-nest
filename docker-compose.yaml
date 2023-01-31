@@ -8,6 +8,6 @@ services:
     ports:
       - 27017:27017
     environment:
-      MONGOBD_DATABASE: nest-pokemon-in
+      MONGOBD_DATABASE: nest-alumno
     volumes:
       - ./mongo:/data/db
